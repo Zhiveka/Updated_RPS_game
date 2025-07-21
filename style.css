@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.buttons {
+    margin: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.result, .stats {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.restart {
+    margin-top: 30px;
+    background-color: #e74c3e;
+    color: white;
+}
+/*Animation*/
+.choice-flash {
+    animation:flash 0.3s ease-in-out;
+}
+
+@keyframes flash {
+    0%{background-color: #fff;}
+    50% {background-color: #ffeaa7;}
+    100%{background-color: #fff;}
+}
